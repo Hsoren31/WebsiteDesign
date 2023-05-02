@@ -4,7 +4,122 @@
     }
     
 /*Color*/
-    
-/*Fonts*/ 
-    
+.color h1 {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.color div {
+    display: inline-block;
+    width:380px;
+    height: 500px;
+    margin: 10px 30px;
+    text-align: center;
+}
+.color .pearl {
+    background-color: #E2DBBE;
+}
+.color .vanilla {
+    background-color: #D5D6AA;
+}
+.color .cambridge-blue {
+    background-color: #9DBBAE;
+}
+.color .air-superiority-blue {
+    background-color: #769FB6;
+}
+.color .black {
+    background-color: #070707;
+    color: #FFFFFF;
+}
+/*Fonts*/
+
+.fonts h1 {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fonts div {
+    border: 1px solid black;
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    margin: 10px 50px;
+    padding: 15px;
+}
+
+.merriweather h2 {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.merriweather .regular {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.merriweather .italic {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.instrument-serif h2{
+    font-family: 'Instrument Serif', serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.instrument-serif .regular {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.instrument-serif .italic {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    padding-left: 95px;
+}
+
+.pt-serif h2 {
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pt-serif .regular {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pt-serif .italic {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.pt-serif .bold {
+    font-family: 'PT Serif';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
 /*Text Style*/
