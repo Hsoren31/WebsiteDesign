@@ -92,7 +92,6 @@
     font-size: 20px;
     text-align: center;
     font-style: italic;
-    padding-left: 95px;
 }
 
 .pt-serif h2 {
@@ -123,3 +122,33 @@
     font-weight: bold;
 }
 /*Text Style*/
+
+.text-style {
+    border: 1px solid black;
+}
+
+.text-style .title {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.text-style .heading {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.text-style .subheading {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-style .paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
